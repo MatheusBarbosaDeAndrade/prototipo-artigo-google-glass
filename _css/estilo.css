@@ -15,7 +15,7 @@ body{
 div#interface{
     position: relative;
     background-color: white;
-    width: 900px;
+    width: 910px;
     margin: -20px auto 0px auto;
     padding: 10px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
@@ -24,7 +24,7 @@ div#interface{
 header#cabecalho{
     border-bottom: 1px #606060 solid;
     height: 150px;
-
+    
     background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 80px;
 }
 
@@ -52,10 +52,60 @@ section#corpo{
     padding-right: 15px;
 }
 
+article#noticia-principal h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+.direita{
+    text-align: right;
+}
+
+
+header#cabecalho-artigo h2{
+    margin-top: 0;
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12pt;
+    color: #606060;
+}
+
 aside#lateral{
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1{
+    font-family: "FonteLogo", sans-serif;
+    color: #606060;
+    font-size: 20pt;
+    margin-top: 0;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    color: #fff;
+    font-size: 13pt;
+    padding: 5px;
 }
 
 footer#rodape{
@@ -88,7 +138,7 @@ table#tabelaspec td.ce{
 }
 
 table#tabelaspec td.cd{
-   background-color: #cecece;
+    background-color: #cecece;
     
 }
 
@@ -104,13 +154,23 @@ table#tabelaspec caption span{
     font-size: 8pt;
     color: #000000;
     margin-top: 10px;
-
+    
 }
 
 p{
     text-align: justify;
     text-indent: 50px;
 }
+
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 
 figure.foto-legenda{
     position: relative;
@@ -184,6 +244,6 @@ nav#menu a:hover{
 
 img#icone {
     position: absolute;
-    left: 740px;
+    left: 745px;
     top: 82px;
 }
